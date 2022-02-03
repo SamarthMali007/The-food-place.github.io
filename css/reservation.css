@@ -1,0 +1,93 @@
+.form1 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.form2 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.form1{
+    float: left;
+    width: 38%;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.form2{
+    float: right;
+    width: 38%;
+    margin-right: 130px;
+    margin-top: 50px;
+}
+
+.form1 input[type=date]{
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 0px;
+    font-family: verdana;
+    font-size: 14px;
+    width: 100%;
+}
+
+.form1 input[type=time]{
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 0px;
+    font-family: verdana;
+    font-size: 14px;
+    width: 100%;
+}
+
+.form1 select{
+    padding: 14px 20px;
+    margin: 10px 0px;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 0px;
+    font-family: verdana;
+    font-size: 14px;
+    width: 107%;
+}
+
+
+.form2 input{
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 0px;
+    font-family: verdana;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.fomrs input:focus{
+    border: 1px solid burlywood;
+}
+
+.form3 button{
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 40px;
+    color: #d0a772;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    line-height: 50px;
+    border: 2px solid #cfa671;
+    cursor: pointer;
+    text-transform: uppercase;
+    float: left;
+}
+
+.btn:hover{
+    background-color: #d0a772;
+    color: white;
+}

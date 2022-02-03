@@ -1,0 +1,56 @@
+
+
+.HeroSection2{
+    clear: left;
+/* background-image: url("../img/menu_img1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 0px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: -2;
+}
+
+.HeroSection2 h4{
+    z-index: 1;
+}
+
+
+.HeroSection2::before{
+    background: #010101;
+    opacity: 0.3;
+}
+
+.menu-section {
+    background-image: url("../img/menu_img1.jpg");
+    background-size: cover;
+    height: 425px;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
+.menu-section::before{
+    background: #010101;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+
+}
+
+
+.top-h2{
+    position: relative;
+}
+.top-heading {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-top: 15rem;
+    text-align: center;
+}
