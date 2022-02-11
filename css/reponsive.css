@@ -1,0 +1,151 @@
+@media (max-width:800px){
+
+
+
+    .footer_2_box {
+        padding: 30px 0px;
+        /* float: left; */
+        width: 25%;
+        position: relative;
+        z-index: 1;
+        width: 75%;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+
+    .footer_2 {
+        width: 100%;
+        height: 104%;
+    }
+
+    .footer_1_box {
+    
+         float: none;
+        width:100%;
+    }
+
+    .navmenu{
+        display: grid;
+        float: none;
+        margin-top: 5px;
+        float: none;
+        justify-content: center;
+    }
+    .nav-img{
+        float: none;
+        position: relative;
+        left: 25%;
+        transform: translate(-50%);
+    }
+    .dropdown{
+        text-align: center;
+        /* width: 15%; */
+    }
+
+  .header_section{
+    width: 28%;
+    height: 28%;
+  }
+
+  header{
+      display: none;
+  }
+  input[type=checkbox]:checked ~ header{
+    display: block;
+   }
+
+   .fourth_section_review{
+       width: 84%;
+   }
+   .gallery_items{
+       margin-left: 0px;
+   }
+   .icon{
+       margin-left: 60px;
+   }
+   .special_menu_items{
+    margin-left: 0px;
+   }
+   .hamburger{
+    position: absolute;
+   }
+  
+
+   i{
+    left: 93%;
+    font-size: 28px;
+    top: 24px;
+   }
+
+   #burger i{
+    /* position: relative; */
+    margin-left: -28px;
+  
+   }
+
+  #burger{
+      display: none;
+  }
+
+  .Hero_title{
+    font-size: 37px;
+    padding-top: 86px;
+  }
+
+  .first_section_image {
+    display: inline;
+    height: 93px;
+    width: 65%;
+    margin: 72px 29px;
+    padding: 9px 10px;
+    box-shadow: 10px 10px burlywood inset;
+}
+.first_section_image img {
+    height: 198px;
+}
+.first_section_text{
+    height: auto;
+    width: 67%;
+}
+
+.second_section {
+    background-image: url(../img/Bg_5.jpg);
+    clear: both;
+    background-size: cover;
+    margin-top: 525px;
+    height: 300px;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+    font-size: 15px;
+    color: black;
+    margin-top: 28px;
+    font-family: verdana;
+    border-radius: 4px;
+}
+.second_section_paragraph {
+    text-align: center;
+    margin-top: 12px;
+    font-family: Georgia;
+    font-size: 24px;
+    text-align: center;
+    padding: 60px;
+    color: white;
+}
+.special_menu{
+    flex-direction: column;
+}
+.Gallery img{
+    transform: scale(0.9);
+}
+.itemsAll{
+    transform: scale(0.9);
+}
+
+.HeroSection{
+    height: 472px;
+}
+.Hero_discription{
+    font-size: 14px;
+}
+}
